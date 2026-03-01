@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Change a point color</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+	<label for="normal on/off">normal on/off:</label>
+	<input type="range" id="normal on/off" min="0" max="1" value="0" step="1">
+	<label for="light on/off">light on/off:</label>
+	<input type="range" id="light on/off" min="0" max="1" value="0" step="1">
+	<label for="red">red:</label>
+	<input type="range" id="red" min="0" max="1" value="0.5" step="any">
+	<label for="green">green:</label>
+	<input type="range" id="green" min="0" max="1" value="0.5" step="any">
+	<label for="blue">blue:</label>
+	<input type="range" id="blue" min="0" max="1" value="0.5" step="any">
+	<label for="start">starting point for angle:</label>
+	<input type="range" id="start" min="0" max="360" value="0" step="any">
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+	<script src="lib/cuon-matrix-cse160.js"></script>
+	<script  src="Setup.js"></script>
+	<script  src="Model.js"></script>
+    <script src="asgn4.js"></script>
+  </body>
+</html>
